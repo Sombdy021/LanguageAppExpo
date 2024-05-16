@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, Button, Image, StyleSheet, Pressable } from 'react-native';
+import { View, Text, TextInput, Pressable } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
-import { colors, styles } from '../Styles/globalStyles';
+import { styles } from '../Styles/globalStyles';
 import { useNavigation } from '@react-navigation/native';
 import LoginScreen, { screenName as LoginName } from './LoginScreen';
 

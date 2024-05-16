@@ -7,10 +7,8 @@ import { screenName as SelectionName } from './LanguageSelectScreen';
 
 import {
     Text,
-    useColorScheme,
     View,
     Image,
-    Button,
     Pressable,
 } from 'react-native';
 
@@ -20,7 +18,6 @@ export const screenName = 'OnBoarding';
 
 function OnBoarding(): React.JSX.Element {
 
-    const isDarkMode = useColorScheme() === 'dark';
     const navigation = useNavigation();
     const [boardIndex, setBoardIndex] = useState(0);
 

@@ -1,8 +1,8 @@
 import React, { useEffect, useState, } from 'react';
-import { NavigationContainer, useNavigation } from '@react-navigation/native';
+import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import { colors, styles } from './src/Styles/globalStyles';
+import { colors } from './src/Styles/globalStyles';
 
 import OnBoarding, { screenName as OnboardingName } from './src/Main/OnBoarding';
 import LoginScreen, { screenName as LoginName } from './src/Main/LoginScreen';
@@ -15,7 +15,7 @@ import GuessTheAnimalScreen, { screenName as GuessTheAnimalName} from './src/Mai
 import GuessTheAnimalSuccsesScreen, { screenName as GuessTheAnimalSuccsesName } from './src/Main/GuestTheAnimalSuccsesScreen';
 import GuessTheAnimalFalseScreen, { screenName as GuessTheAnimalFalseName } from './src/Main/GuessTheAnimalFalseScreen';
 
-import {SafeAreaView, StatusBar, useColorScheme} from 'react-native';
+import { StatusBar, useColorScheme} from 'react-native';
 
 function App(): React.JSX.Element {
 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { View, Text, Image, TextInput, Button, StyleSheet, Pressable } from 'react-native';
+import { View, Text, Image, TextInput, Pressable } from 'react-native';
 
-import { colors, styles } from '../Styles/globalStyles';
+import { styles } from '../Styles/globalStyles';
 import { useNavigation } from '@react-navigation/native';
 import GuessTheAnimalSuccsesScreen from './GuestTheAnimalSuccsesScreen';
 import GuessTheAnimalFalseScreen from './GuessTheAnimalFalseScreen';
@@ -10,7 +10,6 @@ export const screenName = 'GuessTheAnimalScreen';
 
 function GuessTheAnimalScreen(): React.JSX.Element {
     const [word, setWord] = useState('');
-    const [screen, setScreen] = useState(1);
     const navigation = useNavigation();
 
     const handleCheckWord = () => {

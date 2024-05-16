@@ -1,7 +1,7 @@
 
 import { View, Text, Image, TextInput, Button, StyleSheet, Pressable } from 'react-native';
 
-import { colors, styles } from '../Styles/globalStyles';
+import { styles } from '../Styles/globalStyles';
 import { useNavigation } from '@react-navigation/native';
 
 export const screenName = 'GuessTheAnimalSuccsesScreen';
